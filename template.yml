@@ -1,0 +1,6 @@
+Resources:
+  SNSTopic:
+    Type: "AWS::SNS::Topic"
+Outputs:
+  TopicArn:
+    Value: !Ref SNSTopic
